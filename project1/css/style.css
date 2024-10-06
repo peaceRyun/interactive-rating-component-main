@@ -1,0 +1,68 @@
+html {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+/* 컨테이너 */
+#wrap {
+    background-color: black;
+    width: 1440px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardSurvey {
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 360px;
+    gap: 20px;
+}
+
+.circle {
+    padding: 15px;
+    border-radius: 100%;
+    background-color: hsl(213, 19%, 18%);
+    border-color: black;
+}
+
+.wrapNum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orange {
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.black {
+    color: black;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 1.04rem;
+}
+
+.white {
+    color: white;
+}
+
+.lightGrey {
+    color: hsl(217, 12%, 63%);
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+}
